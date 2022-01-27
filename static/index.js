@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '给您拜年啦';
-    if (score <= 99) return '得得得得得';
-    if (score <= 149) return '新年快乐';
-    if (score <= 199) return '大哥抽黑蜘蛛';
-    return '祝您阖家欢乐';
+    if (score <= 49) return '失去希望';
+    if (score <= 99) return '希望网咖';
+    if (score <= 149) return '希望皇';
+    if (score <= 199) return 'hoper mark';
+    return '希望之光';
 }
 
 function toStr(obj) {
